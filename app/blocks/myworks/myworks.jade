@@ -1,0 +1,23 @@
+include ../project/project
+
+mixin myworks()
+	+b.myworks&attributes(attributes)
+		+e.title('h2') Мои работы
+		+e.projects('ul')
+			+e.project('li')
+				+project
+
+			+e.project('li')
+				+project
+
+			+e.project('li')
+				+project
+
+			+e.project('li')
+				+project
+
+			+e.project('li')
+				+project
+
+			+e.project('li')
+				+project

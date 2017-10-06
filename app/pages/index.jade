@@ -1,9 +1,11 @@
 extends /blocks/layout-default/layout-default
 
 include ../blocks/start/start
+include ../blocks/myworks/myworks
 
 block head
 	- var pageTitle = 'Земцева Виктория | Портфоллио';
 
 block content
 	+start
+	+myworks
