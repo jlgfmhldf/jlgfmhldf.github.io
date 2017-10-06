@@ -1,19 +1,10 @@
 include ../chip/chip
 
-mixin start()
+mixin start(data)
 	+b.start&attributes(attributes)
-		+e('h1').title Виктория Земцева
-		+e('h2').profession Я занимаюсь веб-разработкой: версткой и написанием скриптов с использованием современных технологий
+		+e('h1').title=data.title
+		+e('h2').description=data.description
 		+e.skills
-			+e.skill
-				+chip('HTML', '#ee6434')
-
-			+e.skill
-				+chip('CSS', '#2a53e0')
-
-			+e.skill
-				+chip('Javascript', '#efda5b')
-
-
-			+e.skill
-				+chip('Git', '#ed513b')
+			each skill in data.skills
+				+e.skill
+					+chip(skill.name, skill.color)
