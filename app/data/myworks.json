@@ -1,0 +1,41 @@
+{
+	"title": "МОИ РАБОТЫ",
+	"projects": [
+		{
+			"image": "https://unsplash.it/400/400/?random=1",
+			"title": "Название проекта",
+			"description": "Описание проекта",
+			"tags": ["верстка", "jquery"]
+		},
+		{
+			"image": "https://unsplash.it/400/400/?random=2",
+			"title": "Название проекта",
+			"description": "Описание проекта",
+			"tags": ["верстка", "jquery"]
+		},
+		{
+			"image": "https://unsplash.it/400/400?random=3",
+			"title": "Название проекта",
+			"description": "Описание проекта",
+			"tags": ["верстка", "jquery"]
+		},
+		{
+			"image": "https://unsplash.it/400/400?random=4",
+			"title": "Название проекта",
+			"description": "Описание проекта",
+			"tags": ["верстка", "jquery"]
+		},
+		{
+			"image": "https://unsplash.it/400/400?random=5",
+			"title": "Название проекта",
+			"description": "Описание проекта",
+			"tags": ["верстка", "jquery"]
+		},
+		{
+			"image": "https://unsplash.it/400/400?random=6",
+			"title": "Название проекта",
+			"description": "Описание проекта",
+			"tags": ["верстка", "jquery"]
+		}
+	]
+}

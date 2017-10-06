@@ -1,23 +1,9 @@
 include ../project/project
 
-mixin myworks()
+mixin myworks(data)
 	+b.myworks&attributes(attributes)
-		+e.title('h2') Мои работы
+		+e.title('h2')=data.title
 		+e.projects('ul')
-			+e.project('li')
-				+project
-
-			+e.project('li')
-				+project
-
-			+e.project('li')
-				+project
-
-			+e.project('li')
-				+project
-
-			+e.project('li')
-				+project
-
-			+e.project('li')
-				+project
+			each project in data.projects
+				+e.project('li')
+					+project(project)

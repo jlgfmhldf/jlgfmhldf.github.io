@@ -1,3 +1,9 @@
-mixin project()
+mixin project(data)
 	+b.project&attributes(attributes)
-		img(src='https://unsplash.it/400/400')
+		img(src=data.image)
+		+e.content
+			+e.title=data.title
+			+e.description=data.description
+			+e.tags
+				each tag in data.tags
+					+e('a').tag(href='#' + tag)='#' + tag
