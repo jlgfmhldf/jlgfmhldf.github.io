@@ -1,6 +1,6 @@
 mixin project(data)
 	+b.project&attributes(attributes)
-		img(src=data.image)
+		+e.img('img')(src=data.image)
 		+e.content
 			+e.title=data.title
 			+e.description=data.description
