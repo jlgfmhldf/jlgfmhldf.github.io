@@ -5,7 +5,32 @@ mixin myworks(data)
 	+b.myworks&attributes(attributes)
 		+e.title
 			+title('h2')=data.title
-		+e.projects('ul')
-			each project in data.projects
-				+e.project('li')
-					+project(project)
+		+e.content
+			+e.sort-buttons
+				+e.sort-item
+					+e.sort-title Технологии
+					+e('ul').sort-list
+						+e.sort-link #jquery
+						+e.sort-link #jquery-ui
+						+e.sort-link #react
+						+e.sort-link #redux
+
+				+e.sort-item
+					+e.sort-title По времени
+					+e('ul').sort-list
+						+e.sort-link #2015
+						+e.sort-link #2016
+						+e.sort-link #2017
+
+				+e.sort-item
+					+e.sort-title Другое
+					+e('ul').sort-list
+						+e.sort-link #верстка
+						+e.sort-link #анимация
+						+e.sort-link #мобильная версия
+
+
+			+e.projects('ul')
+				each project in data.projects
+					+e.project('li')
+						+project(project)

@@ -2,7 +2,7 @@
 	display flex
 	align-items center
 	flex-direction column
-	height 100vh
+	min-height 100vh
 
 	&__title
 		color #282f3d
@@ -20,7 +20,36 @@
 		width 90%
 
 	&__project
-		display: inline-block;
-		margin:  0.25rem;
-		padding:  1rem;
-		width:  100%
+		display inline-block
+		margin  0.25rem
+		padding  1rem
+		width  100%
+
+	&__content
+		display flex
+		padding 0 5%
+
+	&__sort-buttons
+		width 15%
+
+	&__sort-link
+		color #ff4500
+		cursor pointer
+		text-decoration none
+
+	&__sort-list
+		padding-left 1rem
+
+	&__sort-item
+		margin 1rem 0
+
+	&__sort-link
+		font-size 1.1rem
+		line-height 1.5
+
+	&__sort-title
+		font-size 1.2rem
+		line-height 2
+
+
+
