@@ -1,8 +1,10 @@
 include ../project/project
+include ../title/title
 
 mixin myworks(data)
 	+b.myworks&attributes(attributes)
-		+e.title('h2')=data.title
+		+e.title
+			+title('h2')=data.title
 		+e.projects('ul')
 			each project in data.projects
 				+e.project('li')

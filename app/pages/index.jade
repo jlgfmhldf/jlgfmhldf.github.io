@@ -2,10 +2,12 @@ extends /blocks/layout-default/layout-default
 
 include ../blocks/start/start
 include ../blocks/myworks/myworks
+include ../blocks/about/about
 
 block head
 	- var pageTitle = 'Земцева Виктория | Портфоллио';
 
 block content
 	+start(getData('start'))
+	+about(getData('about'))
 	+myworks(getData('myWorks'))

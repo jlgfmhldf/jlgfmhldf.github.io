@@ -1,0 +1,14 @@
+include ../title/title
+
+mixin about(data)
+	+b.about&attributes(attributes)
+		+e.title
+			+title('h2')=data.title
+
+		+e.content
+			+e('ul').list
+				each item in data.skills
+					+e.list-item=item
+
+
+
