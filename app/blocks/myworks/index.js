@@ -16,6 +16,8 @@ const filterByTag = name => shuffle.filter(name)
 
 const removeActiveClassFromFilterBtn = el => el.classList.remove(filterBtnActiveClass)
 
+const clearFilters = () => shuffle.filter('')
+
 const toggleActiveClass = activeTag => {
 	const { innerText } = activeTag
 	const filterFunc = item => item.innerText !== innerText
@@ -32,14 +34,23 @@ const handleFilterBtnClick = event => {
 
 	event.preventDefault()
 
+
+
+	if (target.classList.contains(filterBtnActiveClass)) {
+		clearFilters()
+	}
+	else {
+		filterByTag(name)
+	}
+
 	toggleActiveClass(target)
-	filterByTag(name)
 }
 
-const clearFilters = () => {
-	shuffle.filter('')
+const handleClearFilters = () => {
+	clearFilters()
+	filterBtns.forEach(removeActiveClassFromFilterBtn)
 }
 
-clearFiltersBtn.addEventListener('click', clearFilters)
+clearFiltersBtn.addEventListener('click', handleClearFilters)
 
 filterBtns.forEach(item => item.addEventListener('click', handleFilterBtnClick))
