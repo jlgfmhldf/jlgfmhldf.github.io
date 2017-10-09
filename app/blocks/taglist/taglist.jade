@@ -1,0 +1,9 @@
+mixin taglist(data, jsclass)
+	+b.taglist&attributes(attributes)
+		each item in data
+			+e.item
+				+e.title=item.title
+				+e('ul').tags
+					each tag in item.tags
+						+e.tags-item
+							+e('a').tag-link(data-name=tag href=`#${tag}` class=jsclass)=`#${tag}`

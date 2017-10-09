@@ -1,6 +1,60 @@
 {
 	"title": "МОИ РАБОТЫ",
+	"tags": [
+		{
+			"title": "Технологии",
+			"tags": ["jquery", "jquery-ui", "react", "redux"]
+		},
+		{
+			"title": "По времени",
+			"tags": ["2017", "2016", "2015"]
+		},
+		{
+			"title": "Другие фильтры",
+			"tags": ["верстка", "анимация", "мобильная версия"]
+		}
+	],
 	"projects": [
+		{
+			"image": "images/nyancat.jpg",
+			"title": "NyanCat 🐱",
+			"description": "Котик бежит по ночному небу, оставляя за собой след из радуги, и вопит вечное Nyan!",
+			"tags": ["верстка", "анимация", "2017"],
+			"link": "https://github.com/jlgfmhldf/nyancat",
+			"githubLink": "https://jlgfmhldf.github.io/nyancat/"
+		},
+		{
+			"image": "images/smoothie.jpg",
+			"title": "Make Your Smoothie",
+			"description": "Приложение, которое поможет подобрать рецепт смузи",
+			"tags": ["react", "redux", "2017"],
+			"link": "https://jlgfmhldf.github.io/make-your-smoothie/",
+			"githubLink": "https://github.com/jlgfmhldf/make-your-smoothie"
+		},
+		{
+			"image": "images/zazerkalie.jpg",
+			"title": "Зазеркалье",
+			"description": "Верстка",
+			"tags": ["верстка", "2016"],
+			"link": "http://jlgfmhldf.github.io/zazerkalie/",
+			"githubLink": "https://github.com/jlgfmhldf/zazerkalie"
+		},
+		{
+			"image": "images/3xp.jpg",
+			"title": "3XP",
+			"description": "Верстка, есть мультиязычность",
+			"tags": ["верстка", "jquery", "2015"],
+			"link": "http://jlgfmhldf.github.io/3XP/",
+			"githubLink": "https://github.com/jlgfmhldf/3XP"
+		},
+		{
+			"image": "images/promalp36.jpg",
+			"title": "promalp36",
+			"description": "Главная страница для сайта компании promalp36",
+			"tags": ["верстка", "jquery", "carousel", "2015", "мобильная версия"],
+			"link": "http://jlgfmhldf.github.io/prom-alp/",
+			"githubLink": "https://github.com/jlgfmhldf/prom-alp"
+		},
 		{
 			"image": "images/magazine.png",
 			"title": "Magazine",
@@ -32,46 +86,6 @@
 			"tags": ["верстка", "2014"],
 			"link": "https://jlgfmhldf.github.io/active-k",
 			"githubLink": "https://github.com/jlgfmhldf/active-k"
-		},
-		{
-			"image": "images/3xp.jpg",
-			"title": "3XP",
-			"description": "Верстка, есть возможность переключения страницы на русский",
-			"tags": ["верстка", "jquery", "2015"],
-			"link": "http://jlgfmhldf.github.io/3XP/",
-			"githubLink": "https://github.com/jlgfmhldf/3XP"
-		},
-		{
-			"image": "images/promalp36.jpg",
-			"title": "promalp36",
-			"description": "Главная страница для сайта компании promalp36",
-			"tags": ["верстка", "jquery", "carousel", "2015", "мобильная версия"],
-			"link": "http://jlgfmhldf.github.io/prom-alp/",
-			"githubLink": "https://github.com/jlgfmhldf/prom-alp"
-		},
-		{
-			"image": "images/zazerkalie.jpg",
-			"title": "Зазеркалье",
-			"description": "Верстка",
-			"tags": ["верстка", "2016"],
-			"link": "http://jlgfmhldf.github.io/zazerkalie/",
-			"githubLink": "https://github.com/jlgfmhldf/zazerkalie"
-		},
-		{
-			"image": "images/nyancat.jpg",
-			"title": "NyanCat 🐱",
-			"description": "Котик бежит по ночному небу, оставляя за собой след из радуги, и вопит вечное Nyan!",
-			"tags": ["верстка", "анимация", "2017"],
-			"link": "https://github.com/jlgfmhldf/nyancat",
-			"githubLink": "https://jlgfmhldf.github.io/nyancat/"
-		},
-		{
-			"image": "images/smoothie.jpg",
-			"title": "Make Your Smoothie",
-			"description": "Приложение, которое поможет подобрать рецепт смузи",
-			"tags": ["react", "redux", "2017"],
-			"link": "https://jlgfmhldf.github.io/make-your-smoothie/",
-			"githubLink": "https://github.com/jlgfmhldf/make-your-smoothie"
 		}
 	]
 }

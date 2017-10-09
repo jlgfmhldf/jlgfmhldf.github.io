@@ -139,7 +139,7 @@ rules:
     no-with: 2
     new-parens: 2
     newline-after-var: 0
-    object-curly-spacing: [1, 'never']
+    object-curly-spacing: [1, 'always']
     object-shorthand: [2, 'always']
     one-var: [2, 'never']
     operator-assignment: [2, 'always']
@@ -150,7 +150,7 @@ rules:
     quote-props: [2, 'as-needed']
     quotes: [2, 'single']
     radix: 1
-    semi: [2, 'always']
+    semi: [2, 'never']
     semi-spacing: [2, {before: false, after: true}]
     sort-vars: 0
     keyword-spacing: [2, {before: false, after: true, overrides: {
