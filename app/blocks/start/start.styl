@@ -33,3 +33,51 @@
 
 		&:last-child
 			margin-right 0
+
+	&__link
+		display flex
+		align-items center
+		margin-right 2rem
+		text-decoration none
+		transition .5s ease
+		color #000
+		fill #000
+
+		&_github
+
+			&:hover
+				color #006eed
+				fill #006eed
+
+		&_skype
+
+			&:hover
+				color #12A5F4
+				fill #12A5F4
+
+		&_email
+
+			&:hover
+				color #e04c40
+				fill #e04c40
+
+	&__link-text
+		margin-left .5rem
+		color inherit
+		font-size 1.3rem
+
+
+	&__links
+		display flex
+		margin-top 6rem
+
+	&__icon
+		size 1.2rem
+
+		&_github
+			transform translateY(-1px)
+
+		&_skype
+			transform translateY(-1px)
+
+
