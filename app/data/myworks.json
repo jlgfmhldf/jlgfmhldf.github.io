@@ -21,7 +21,9 @@
 			"description": "Котик бежит по ночному небу, оставляя за собой след из радуги, и вопит вечное Nyan!",
 			"tags": ["верстка", "анимация", "2017"],
 			"link": "https://github.com/jlgfmhldf/nyancat",
-			"githubLink": "https://jlgfmhldf.github.io/nyancat/"
+			"githubLink": "https://jlgfmhldf.github.io/nyancat/",
+			"cardColor": "#16456f",
+			"theme": "dark"
 		},
 		{
 			"image": "images/smoothie.jpg",
@@ -29,7 +31,8 @@
 			"description": "Приложение, которое поможет подобрать рецепт смузи",
 			"tags": ["react", "redux", "2017"],
 			"link": "https://jlgfmhldf.github.io/make-your-smoothie/",
-			"githubLink": "https://github.com/jlgfmhldf/make-your-smoothie"
+			"githubLink": "https://github.com/jlgfmhldf/make-your-smoothie",
+			"cardColor": "#f9f9f9"
 		},
 		{
 			"image": "images/zazerkalie.jpg",
@@ -45,7 +48,9 @@
 			"description": "Верстка, есть мультиязычность",
 			"tags": ["верстка", "jquery", "2015"],
 			"link": "http://jlgfmhldf.github.io/3XP/",
-			"githubLink": "https://github.com/jlgfmhldf/3XP"
+			"githubLink": "https://github.com/jlgfmhldf/3XP",
+			"cardColor": "#012736",
+			"theme": "dark"
 		},
 		{
 			"image": "images/promalp36.jpg",
@@ -61,7 +66,9 @@
 			"description": "Верстка UI-KIT",
 			"tags": ["верстка", "jquery", "jquery-ui", "2014"],
 			"link": "https://jlgfmhldf.github.io/magazine/",
-			"githubLink": "https://github.com/jlgfmhldf/magazine"
+			"githubLink": "https://github.com/jlgfmhldf/magazine",
+			"cardColor": "#576d85",
+			"theme": "dark"
 		},
 		{
 			"image": "images/parallels.png",
@@ -69,7 +76,9 @@
 			"description": "Верстка лендинга",
 			"tags": ["верстка", "jquery", "carousel", "tabs", "2014"],
 			"link": "https://jlgfmhldf.github.io/Parallels/",
-			"githubLink": "https://github.com/jlgfmhldf/Parallels"
+			"githubLink": "https://github.com/jlgfmhldf/Parallels",
+			"cardColor": "#27292f",
+			"theme": "dark"
 		},
 		{
 			"image": "images/podstar.jpg",

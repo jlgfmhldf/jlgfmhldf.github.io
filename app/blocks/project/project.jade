@@ -1,5 +1,8 @@
 mixin project(data)
-	+b.project&attributes(attributes)
+	- style = data.cardColor && `background-color: ${data.cardColor}`
+	- theme = data.theme && `project_theme_${data.theme}`
+
+	+b.project&attributes(attributes)(style=style class=theme)
 		+e.img('img')(src=data.image)
 		+e.content
 			+e.title=data.title
