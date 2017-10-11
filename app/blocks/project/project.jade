@@ -7,6 +7,7 @@ mixin project(data)
 		+e.content
 			+e.title=data.title
 			+e.description=data.description
-			+e.tags
-				each tag in data.tags
-					+e('a').tag(href='#' + tag)='#' + tag
+
+			+e('a').link(href=data.githubLink target='_blank') Github
+			+e('a').link(href=data.link target='_blank') Посмотреть
+
