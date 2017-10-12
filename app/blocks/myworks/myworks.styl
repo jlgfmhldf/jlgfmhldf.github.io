@@ -22,15 +22,28 @@
 
 	&__project
 		display inline-block
-		margin 1rem
-		width 30%
+		margin 1%
+		width 31.333%
+
+		+tablet()
+			margin .5rem
 
 	&__content
 		display flex
 		width 100%
-		padding 0 5%
+		padding-left 5%
+		padding-right 5%
 
-	&__filter-sections
+		+tablet()
+			flex-direction column
+			padding-left 2%
+			padding-right 2%
+
+		+mobile()
+			padding-left 2%
+			padding-right 2%
+
+	&__filter-section
 		width 15%
 
 	&__clear-filters
