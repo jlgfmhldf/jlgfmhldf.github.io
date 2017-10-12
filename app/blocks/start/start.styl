@@ -16,8 +16,7 @@
 		left 0
 		right 0
 		bottom 0
-		background-color rgba(#000, .3)
-		background-color rgba(#000, .45)
+		background-color rgba($black, .45)
 
 	+mobile()
 		min-height auto
@@ -34,7 +33,7 @@
 	&__title
 		margin-top 3rem
 		margin-bottom 3rem
-		color #fff
+		color $white
 		text-transform uppercase
 		font-family 'Open Sans', open-sans, sans-serif
 		font-size 4rem
@@ -46,7 +45,7 @@
 	&__description
 		font-weight 300
 		font-size 1.75rem
-		color #d2d2d3
+		color $grey-300
 		line-height 1.3
 		text-align center
 		margin-top .5em
@@ -68,26 +67,23 @@
 		margin-right 2rem
 		text-decoration none
 		transition .5s ease
-		color #fff
-		fill #fff
+		color $white
+		fill currentColor
 
 		&_github
 
 			&:hover
 				color #af07af
-				fill #af07af
 
 		&_skype
 
 			&:hover
 				color #12A5F4
-				fill #12A5F4
 
 		&_email
 
 			&:hover
 				color #e04c40
-				fill #e04c40
 
 	&__link-text
 		margin-left .5rem
@@ -114,7 +110,7 @@
 
 		&_mouse
 			size 2.5rem
-			fill #fff
+			fill $white
 
 @keyframes mouse
 	50%
