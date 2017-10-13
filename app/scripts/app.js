@@ -1,7 +1,7 @@
-import svg4everybody from 'svg4everybody';
+import svg4everybody from 'svg4everybody'
 
-import '../blocks/myworks';
+import '../blocks/myworks'
 
 (() => {
-	svg4everybody();
-})();
+	svg4everybody()
+})()
