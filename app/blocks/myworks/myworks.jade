@@ -9,7 +9,7 @@ mixin myworks(data)
 		+e.content
 			+e.filter-section
 				+taglist(data.tags, 'js-filter-btn')
-				+e.clear-filters.js-clear-filters Показать все
+				+e.clear-filters.js-clear-filters Сбросить фильтры
 			+e('ul').projects.js-container
 				each project in data.projects
 					+e.project.js-container-item(data-groups=project.tags)
