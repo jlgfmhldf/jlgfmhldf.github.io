@@ -2,20 +2,11 @@
 	display block
 
 	&__tag-link
-		padding .3rem
-		color $link-color
-		cursor pointer
+		display inline-block
+		margin .3rem
 		text-decoration none
-		font-size 1.1rem
-		line-height 1.5
-		border-radius 3px
-
-		&_active
-			background $link-color
-			color $white
 
 	&__tags
-		padding-left 1rem
 
 		+below($tablet)
 			display flex
@@ -26,3 +17,6 @@
 	&__title
 		font-size 1.2rem
 		line-height 2
+
+	&__tags-item
+		display inline-block

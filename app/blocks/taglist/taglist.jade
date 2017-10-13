@@ -1,3 +1,5 @@
+include ../chip/chip
+
 mixin taglist(data, jsclass)
 	+b.taglist&attributes(attributes)
 		each item in data
@@ -6,4 +8,4 @@ mixin taglist(data, jsclass)
 				+e('ul').tags
 					each tag in item.tags
 						+e.tags-item
-							+e('a').tag-link(data-name=tag href=`#${tag}` class=jsclass)=`#${tag}`
+							+chip(tag).taglist__tag-link(data-name=tag href=`#${tag}` class=jsclass)

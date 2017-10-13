@@ -4,7 +4,7 @@ const container = document.querySelector('.js-container')
 const filterBtns = document.querySelectorAll('.js-filter-btn')
 const clearFiltersBtn = document.querySelector('.js-clear-filters')
 
-const filterBtnActiveClass = 'taglist__tag-link_active'
+const filterBtnActiveClass = 'chip_active'
 
 const shuffleOptions = {
 	itemSelector: '.js-container-item'
