@@ -18,15 +18,11 @@
 	&__content
 		display flex
 		justify-content center
-		align-items center
 		flex-direction column
 		width 50%
 
-		+tablet()
-			width 80%
-
-		+mobile()
-			width 80%
+		+below($tablet)
+			width 96%
 
 	&__text
 		font-size 1.1rem
