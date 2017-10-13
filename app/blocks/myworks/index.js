@@ -51,6 +51,9 @@ const handleClearFilters = () => {
 	filterBtns.forEach(removeActiveClassFromFilterBtn)
 }
 
-clearFiltersBtn.addEventListener('click', handleClearFilters)
+if (clearFiltersBtn) {
+	clearFiltersBtn.addEventListener('click', handleClearFilters)
+}
+
 
 filterBtns.forEach(item => item.addEventListener('click', handleFilterBtnClick))
