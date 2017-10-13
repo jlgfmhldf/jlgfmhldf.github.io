@@ -17,7 +17,7 @@
 	"projects": [
 		{
 			"image": "images/nyancat.jpg",
-			"title": "NyanCat 🐱",
+			"title": "NyanCat",
 			"description": "Котик бежит по ночному небу, оставляя за собой след из радуги, и вопит вечное Nyan!",
 			"tags": ["верстка", "анимация", "2017"],
 			"link": "https://github.com/jlgfmhldf/nyancat",
@@ -82,7 +82,7 @@
 		},
 		{
 			"image": "images/podstar.jpg",
-			"title": "🔈 PodStar",
+			"title": "PodStar",
 			"description": "Верстка лендинга",
 			"tags": ["верстка", "jquery", "2014"],
 			"link": "http://jlgfmhldf.github.io/PodStar/",
