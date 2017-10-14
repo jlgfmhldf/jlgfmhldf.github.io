@@ -4,20 +4,26 @@
 	height 100vh
 	min-height 100vh
 	background-color #5c5984
-	background-image url(../../images/bg.jpg)
-
-	&::before
-		position absolute
-		top 0
-		right 0
-		left 0
-		bottom 0
-		content ''
-		background-color rgba($black, .45)
 
 	+tablet(orientation: landscape)
 		height auto
 		min-height auto
+
+	&__bg
+		position absolute
+		display flex
+		min-height 100vh
+		background-color #5c5984
+
+		&::before
+			position absolute
+			top 0
+			right 0
+			left 0
+			bottom 0
+			content ''
+			background-color rgba($black, .45)
+			z-index 100
 
 	&__content
 		position relative
