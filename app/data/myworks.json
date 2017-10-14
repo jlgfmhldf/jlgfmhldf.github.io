@@ -61,7 +61,7 @@
 			"githubLink": "https://github.com/jlgfmhldf/prom-alp"
 		},
 		{
-			"image": "images/magazine.png",
+			"image": "images/magazine.jpg",
 			"title": "Magazine",
 			"description": "Верстка UI-KIT",
 			"tags": ["верстка", "jquery", "jquery-ui", "2014"],
@@ -71,7 +71,7 @@
 			"theme": "dark"
 		},
 		{
-			"image": "images/parallels.png",
+			"image": "images/parallels.jpg",
 			"title": "Parallels",
 			"description": "Верстка лендинга",
 			"tags": ["верстка", "jquery", "carousel", "tabs", "2014"],
