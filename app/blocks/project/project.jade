@@ -3,7 +3,7 @@ mixin project(data)
 	- theme = data.theme && `project_theme_${data.theme}`
 
 	+b.project&attributes(attributes)(style=style class=theme)
-		+e.img('img')(src=data.image)
+		+e.img(src=data.image)
 		+e.content
 			+e.title=data.title
 			+e.description=data.description

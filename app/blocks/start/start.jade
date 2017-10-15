@@ -3,7 +3,7 @@ include ../icon/icon
 include ../blurred-image/blurred-image
 
 mixin start(data)
-	- var smallImage = imageToBase64('app/resources/images/bg.min.jpg')
+	- smallImage = imageToBase64('app/resources/images/bg.min.jpg')
 
 	+b.start&attributes(attributes)
 		+blurred-image(
