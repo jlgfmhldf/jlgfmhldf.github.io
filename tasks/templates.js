@@ -11,10 +11,19 @@ import rename from 'gulp-rename';
 import errorHandler from 'gulp-plumber-error-handler';
 import getData from 'jade-get-data';
 import staticHash from 'gulp-static-hash';
+import fs from 'fs'
+
+const imageToBase64 = pathToImage => {
+	const bitmap = fs.readFileSync(pathToImage);
+	const code = new Buffer(bitmap).toString('base64');
+
+	return `data:image/jpeg;base64,${code}`;
+}
 
 const data = {
 	getData: getData('app/data'),
-	jv0: 'javascript:void(0);'
+	jv0: 'javascript:void(0);',
+	imageToBase64
 };
 
 gulp.task('templates', () => (
