@@ -1,8 +1,16 @@
 include ../chip/chip
 include ../icon/icon
+include ../blurred-image/blurred-image
 
 mixin start(data)
+	- smallImage = imageToBase64('app/resources/images/bg.min.jpg')
+
 	+b.start&attributes(attributes)
+		+blurred-image(
+			smallImage,
+			'./images/bg.jpg'
+		).start__bg
+		//- TODO
 		+e.content
 			+e('h1').title=data.title
 			+e('h2').description=data.description
