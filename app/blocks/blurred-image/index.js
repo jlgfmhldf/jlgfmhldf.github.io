@@ -9,11 +9,11 @@ const blurAnim = chainEvenly(
 
 const handleImgOnLoad = el => () => {
 	const { src } = el.dataset
+	const clearFilter = () => { el.style.filter = '' }
 
 	el.style.backgroundImage = `url(${src})`
 
-	stream(1000, easings.easeInOutExpo(blurAnim), intoDom(el))
-
+	stream(1000, easings.easeInOutExpo(blurAnim), intoDom(el), clearFilter) // TODO
 }
 
 const handleBlurredImage = el => {
