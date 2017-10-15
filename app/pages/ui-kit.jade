@@ -1,0 +1,21 @@
+extends /blocks/layout-default/layout-default
+
+include ../blocks/blurred-image/blurred-image
+
+block head
+	- var pageTitle = 'UI-KIT';
+
+	style.
+		.blurred-image-wrapper {
+			width: 300px;
+			height: 300px;
+		}
+
+- smallImage = imageToBase64('app/resources/images/bg.min.jpg')
+
+block content
+	+b.blurred-image-wrapper
+		+blurred-image(
+			smallImage,
+			'./images/bg.jpg'
+		)

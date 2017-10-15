@@ -1,0 +1,10 @@
+mixin blurred-image(smallImage, bigImageURL)
+	.blurred-image&attributes(attributes)
+		.blurred-image__img.js-blurred-image(
+			data-src=bigImageURL
+			style=`
+				background-image: url(${smallImage});
+				filter: blur(5px)
+			`
+		)
+			block
