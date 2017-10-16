@@ -1,19 +1,20 @@
-import { chainEvenly, ensureProperty, stream, easings, intoDom }from 'keyframes.js'
+import SharpenAnimation from './SharpenAnimation'
 
 const blurredImages = document.querySelectorAll('.js-blurred-image')
 
-const blurAnim = chainEvenly(
-	ensureProperty('filter', 'blur(5px)'),
-	ensureProperty('filter', 'blur(0px)'),
-)
-
 const handleImgOnLoad = el => () => {
 	const { src } = el.dataset
-	const clearFilter = () => { el.style.filter = '' }
+	const id = Math.random().toString().slice(2)
+	const sharpenAnimation = new SharpenAnimation(id)
+	const animationName = sharpenAnimation.getAnimationName()
 
+	el.style.animation = `${animationName} 1s both`
 	el.style.backgroundImage = `url(${src})`
 
-	stream(1000, easings.easeInOutExpo(blurAnim), intoDom(el), clearFilter) // TODO
+	el.addEventListener('animationend', () => {
+		sharpenAnimation.removeFromDom()
+		el.style.animation = ''
+	})
 }
 
 const handleBlurredImage = el => {

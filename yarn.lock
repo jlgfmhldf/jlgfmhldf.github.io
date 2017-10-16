@@ -4009,10 +4009,6 @@ jstransformer@0.0.2:
     is-promise "^2.0.0"
     promise "^6.0.1"
 
-keyframes.js@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/keyframes.js/-/keyframes.js-0.0.2.tgz#2c6206d61742743ceaeacd638a98f684c3dcef4e"
-
 keypress@0.1.x:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/keypress/-/keypress-0.1.0.tgz#4a3188d4291b66b4f65edb99f806aa9ae293592a"
