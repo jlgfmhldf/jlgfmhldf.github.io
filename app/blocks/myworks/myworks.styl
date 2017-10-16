@@ -4,6 +4,9 @@
 	flex-direction column
 	min-height 100vh
 
+	+below($tablet)
+		padding-x 4%
+
 	&__title
 		color $blue-gray-900
 		text-transform uppercase
@@ -21,6 +24,7 @@
 
 		+below($tablet)
 			width 100%
+			margin-x -.5rem
 
 	&__project
 		display inline-block
@@ -28,13 +32,10 @@
 		width 31.333%
 
 		+below($tablet)
-			width 47%
-			margin .5rem
+			width 48%
 
-		+mobile()
-			width 93% // TODO
-			margin 1rem
-
+		+below(600px)
+			width 98%
 
 	&__content
 		display flex
@@ -53,8 +54,6 @@
 
 		+below($tablet)
 			width 100%
-			padding-left 2%
-			padding-right 2%
 			margin-bottom 2rem
 
 	&__clear-filters
