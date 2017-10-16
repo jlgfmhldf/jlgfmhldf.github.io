@@ -20,8 +20,8 @@
 			"title": "NyanCat",
 			"description": "Котик бежит по ночному небу, оставляя за собой след из радуги, и вопит вечное Nyan!",
 			"tags": ["верстка", "анимация", "2017"],
-			"link": "https://github.com/jlgfmhldf/nyancat",
-			"githubLink": "https://jlgfmhldf.github.io/nyancat/",
+			"link": "https://jlgfmhldf.github.io/nyancat/",
+			"githubLink": "https://github.com/jlgfmhldf/nyancat",
 			"cardColor": "#16456f",
 			"theme": "dark"
 		},
