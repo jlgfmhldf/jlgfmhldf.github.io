@@ -16,16 +16,25 @@ mixin start(data)
 			+e('h2').description=data.description
 			+e.links
 				+e('a').link_github(href='https://github.com/jlgfmhldf' target='_blank')
-					+icon('github-logo').icon_github
+					+e('span').icon.icon-github
 					+e('span').link-text
 						| Github
+
+				+e.slash /
 				+e('a').link_skype(href='skype:jlgfmhldf?chat' target='_blank')
-					+icon('skype-logo').icon_skype
+					+e('span').icon.icon-skype
 					+e('span').link-text
 						| Skype
-				+e('a').link_email(href='email:viktoria.zmcv@gmail.com' target='_blank')
-					+icon('gmail-logo').icon_email
+				+e.slash /
+				+e('a').link_email(href='https://telegram.me/jlgfmhldf' target='_blank')
+					+e('span').icon.icon-telegram
+					+e('span').link-text
+						| Telegram
+				+e.slash /
+				+e('a').link_email(href='mailto:viktoria.zmcv@gmail.com' target='_blank')
+					+e('span').icon.icon-mail
 					+e('span').link-text
 						| Email
+
 			+e.mouse
 				+icon('mouse').icon_mouse

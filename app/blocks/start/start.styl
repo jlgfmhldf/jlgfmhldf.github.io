@@ -63,38 +63,27 @@
 		&:last-child
 			margin-right 0
 
+	&__slash
+		margin-x 1rem
+		color rgba($white, .5)
+		font-size 2rem
+
 	&__link
 		display flex
 		align-items center
-		margin-right 2rem
 		text-decoration none
 		transition .5s ease
 		color $white
-		fill currentColor
-
-		&_github
-
-			&:hover
-				color #af07af
-
-		&_skype
-
-			&:hover
-				color #12A5F4
-
-		&_email
-
-			&:hover
-				color #e04c40
+		font-size 1.2rem
 
 	&__link-text
 		margin-left .5rem
 		color inherit
-		font-size 1.3rem
 
 	&__links
 		display flex
 		margin 6rem 0
+		align-items center
 
 	&__mouse
 		position absolute
@@ -102,13 +91,7 @@
 		animation mouse 3s ease infinite
 
 	&__icon
-		size 1.2rem
-
-		&_github
-			transform translateY(-1px)
-
-		&_skype
-			transform translateY(-1px)
+		font-size 1.8rem
 
 		&_mouse
 			size 2.5rem
