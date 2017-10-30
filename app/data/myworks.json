@@ -95,6 +95,14 @@
 			"tags": ["верстка", "2014"],
 			"link": "https://jlgfmhldf.github.io/active-k",
 			"githubLink": "https://github.com/jlgfmhldf/active-k"
+		},
+		{
+			"image": "images/radomas.jpg",
+			"title": "Radomas",
+			"description": "Верстка страниц сайта",
+			"tags": ["верстка", "2017"],
+			"link": "https://jlgfmhldf.github.io/Radomas/",
+			"githubLink": "https://github.com/jlgfmhldf/Radomas"
 		}
 	]
 }
